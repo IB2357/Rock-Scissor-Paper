@@ -8,7 +8,6 @@ m_points, u_points = 0, 0
 
 for i in range(6):
     m = choice(l)
-    print(m)
     u = input("Enter R or P or S:\n")
     if u == m:
        u_points +=1
