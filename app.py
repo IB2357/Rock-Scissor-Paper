@@ -1,6 +1,5 @@
 from random import choice
 
-
 RSP = {'P':'S','S':'R','R':'P'}
 l = list(RSP.keys())
 m,u = None,None
@@ -18,7 +17,5 @@ for i in range(6):
 
     else:
         m_points +=1
-    print(f" user's points {u_points}\n machine's points {m_points}")
-
 
 print(f"end of the game\n\tuser's points {u_points}\n\tmachine's points {m_points}")
